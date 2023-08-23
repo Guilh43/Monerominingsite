@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    margin: 10px;
+}
+
+#balance {
+    font-weight: bold;
+    color: #007bff;
+}
